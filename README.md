@@ -4,7 +4,7 @@ Este repositorio contiene el cuaderno principal del proyecto final para el curso
 
 ## Contenido
 
-- `notebooks/proyecto_final.ipynb`: flujo completo para preparar datos, entrenar y evaluar un modelo basado en Transformers en español.
+- `notebooks/proyecto_final.ipynb`: flujo completo para preparar datos, entrenar y evaluar un modelo basado en Transformers en inglés.
 - `data/`: directorio esperado con los conjuntos de datos en formato JSONL (`train.jsonl`, `validation.jsonl`, etc.).
 - `models/`: carpeta donde se almacenan los pesos y el tokenizer resultantes del entrenamiento.
 
@@ -24,4 +24,4 @@ pip install pandas datasets transformers
 
 ## Resultados
 
-El entrenamiento generará un modelo ajustado para clasificación de texto en español junto con las métricas de evaluación y los artefactos guardados en `models/spanish-bert-finetuned`.
+El entrenamiento generará un modelo ajustado para clasificación de texto en inglés junto con las métricas de evaluación y los artefactos guardados en `models/english-bert-finetuned`.
